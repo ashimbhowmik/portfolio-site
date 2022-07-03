@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f3f4;
+  box-sizing: border-box;
+}
+.body-figure {
+  margin: 20px 35px;
+  height: 70px;
+  box-shadow: 1px 0px 2px 2px rgb(139, 139, 139);
+  background-color: #ffffff;
+}
+.head {
+  display: flex;
+  justify-content: center;
+}
+#active {
+  position: relative;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  right: 20px;
+}
+#insta {
+  position: relative;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  margin-top: 14px;
+  padding: 8px;
+  font-size: 22px;
+  left: 20px;
+  text-decoration: none;
+}
+.body-figure2 {
+  display: flex;
+  margin: 20px 0px;
+  height: 70px;
+  box-shadow: 1px 0px 2px 2px rgb(139, 139, 139);
+  background-color: #ffffff;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+#img-1 {
+  position: relative;
+  height: 70px;
+  width: 70px;
+}
+.profile {
+  display: flex;
+  position: relative;
+}
+#a1 {
+  position: relative;
+  right: 20px;
+  margin: auto 0;
+  left: 20px;
+  font-size: 20px;
+  color: black;
+}
+.naivbar {
+  display: flex;
+  position: relative;
+  list-style: none;
+}
+.naivbar li {
+  margin: 25px 15px;
+  font-size: 20px;
+}
+.naivbar a {
+  text-decoration: none;
+  color: black;
+}
+.naivbar a:hover {
+  border: 2px;
+  background-color: black;
+  color: whitesmoke;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 5px;
+}
